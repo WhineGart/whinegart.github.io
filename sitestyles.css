@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto Mono', 'Courier New', Courier, monospace;
+} 
+.indented {
+    margin-left: 40px;
+}
+.my-button {
+    background-color: darkslategray;
+    color: white;
+    padding: 10px 20px;
+    border:2px solid white;
+    border-radius: 0px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.my-button:hover {
+    background-color: antiquewhite; color: darkslategrey;
+}
+.nolinebutton {
+    font-family: Roboto Mono;
+    background-color: white;
+    color: black;
+}
+.nolinebutton:hover {
+    background-color: black;
+    color:white;
+    padding-left:10px;
+    padding-right:10px;
+}
+.container {
+    display: flex;
+}
+.column {
+    flex: 1;
+    padding: 40px;
+    padding-bottom: 100px;
+    background-color:rgb(204, 229, 221);
+}
+@media (max-width: 400px) {
+    .container {
+        flex-direction: column;
+    }
+}
+.flexcont {
+    display: flex;
+    justify-content: center;
+    max-width: 100vw;
+    position: relative;
+}
+.flexcoll {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.flexcol {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flexcolr {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.flexbod {
+    /*flex: 1;*/
+    max-width: 300px;
+    padding: 10px;
+}
+.flexcont img {
+    max-width: 100%;
+    height: auto;
+}
+.flexcent {
+    position: absolute;
+    top: 20%;
+    left: auto;
+}
+.hscrolcont {
+    width: 100%;
+    overflow: auto;
+    white-space: nowrap;
+    white-space-collapse: collapse;
+    border: 2px solid rgb(204, 229, 221);
+  }
+  .hscrolitem {
+    display: inline-flex;
+    gap: 10px;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 8px;
+  }

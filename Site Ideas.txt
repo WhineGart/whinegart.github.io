@@ -1,0 +1,37 @@
+Homepage.
+    design.v
+        branding
+            gallery 1
+        print
+            gallery 2
+        type
+            gallery 3
+    art.v
+        fine art
+            gallery 4
+        illustrative art
+            gallery 5
+        photography
+            gallery 6
+    about.v
+    contact.v
+    links.v
+
+galleries are based on a template:
+    type: list format of fonts displayed as svg preview. lil blurb under
+    branding, illustrative, fine, photo, print, should be a grid list view. (flex columns)
+
+branding
+    should have an icon with a title under. (represented as an svg)
+    should contain: UPZ, BWB, 
+
+print
+    should contain: TnT, PortfolioMag, Tennis, AllPosters,
+
+Stages
+	1; Formatting stage
+	2; Main Pages Finished
+	3; Gallery Pages Populated
+	4; Detail Pages Made and Finished
+	5; Published/Hosted with personal domain name
+	6; SEO edits
