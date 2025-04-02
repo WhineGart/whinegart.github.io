@@ -76,7 +76,9 @@ body {
 }
 .flexbod img {
     max-width: 100%;
-    height:max-content
+    max-width: 300px;
+    min-height: 200px;
+    min-width: 200px;
 }
 .flexcent {
     position: absolute;
