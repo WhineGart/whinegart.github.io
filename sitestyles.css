@@ -49,30 +49,34 @@ body {
 }
 .flexcoll {
     flex: 1;
+    min-width: 300px;
     display: flex;
     flex-direction: column;
     align-items: end;
 }
 .flexcol {
     flex: 1;
+    min-width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .flexcolr {
     flex: 1;
+    min-width: 300px;
     display: flex;
     flex-direction: column;
     align-items: start;
 }
 .flexbod {
-    /*flex: 1;*/
     max-width: 300px;
+    min-height: 200px;
+    min-width: 200px;
     padding: 10px;
 }
-.flexcont img {
+.flexbod img {
     max-width: 100%;
-    height: auto;
+    height:max-content
 }
 .flexcent {
     position: absolute;
