@@ -87,8 +87,6 @@ body {
 }
 .flexcolfullwid {
     flex-direction: column;
-    padding: 0;
-    margin: 0;
     max-width: 80vw;
     justify-content: center;
     align-items: center;
