@@ -85,6 +85,16 @@ body {
     top: 20%;
     left: auto;
 }
+.flexcolfullwid {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    max-width: 80vw;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
 .hscrolcont {
     width: 100%;
     overflow: auto;
@@ -92,11 +102,11 @@ body {
     white-space-collapse: collapse;
     border: 2px solid rgb(204, 229, 221);
   }
-  .hscrolitem {
+.hscrolitem {
     display: inline-flex;
     gap: 10px;
     height: 200px;
     object-fit: cover;
     transition: transform 0.3s ease-in-out;
     border-radius: 8px;
-  }
+}
