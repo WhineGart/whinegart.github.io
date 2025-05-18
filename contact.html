@@ -23,6 +23,11 @@
     </div>
 </head>
 <body>
+    <div class="indented">
+        <p>Links to my socials:</p>
+        <p onclick="window.location.href='https://behance.net/silaswolfe';"><small>Behance..</small></p>
+        <p onclick="window.location.href='https://instagram.com/sivcal';"><small>Instagram..</small></p>
+    </div>
     <div class="indented" style="padding-bottom: 80px;">
         <p style="max-width: 500px;">If you have any employment opportunities, commission requests, or questions please let me know!</p>
         <form
@@ -36,10 +41,25 @@
             <label for="other"><small>Other Contact:</small></label><br>
             <input type="text" id="other" name="other"><br>
             <label for="textarea"><small>Message:</small></label><br>
-            <textarea rows="7" style="width: 250px; resize: both;"></textarea>
-            <input type="hidden" id="bot" name="are you a bot" value="10"><br>
+            <textarea rows="7" id="msg" name="message" style="width: 250px; resize: both;"></textarea>
+            <div style="display:none;">
+                <label for="website">Website:</label>
+                <input type="text" id="website" name="website" autocomplete="off">
+            </div><br>
             <input type="submit" value="Send" class="nolinebutton">
         </form>
+    </div>
+    <div class="indented">
+        <p>View and download my resumee here:</p>
+    </div>
+    <div class="flexcont"> 
+        <div class="indented; flexcolfullwid">
+            <object title="ueno brochure" data="img/resumee.pdf" style="width: 80vw; height: 100vh;">
+                <a href="img/br-upzmap.pdf">
+                    Silas Wolfe Resumee PDF
+                </a>
+            </object>
+        </div>
     </div>
 <footer>
     <div class="container">
