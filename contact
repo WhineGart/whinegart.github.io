@@ -13,10 +13,10 @@
         <img src="img/logo.svg" class="indented" width="50%" onclick="window.location.href='index.html'">
     </div>
     <div class="indented" style="margin-top: 5px;">
-        <button onclick="window.location.href='options-d.html'" class="nolinebutton">Design</button>
+        <button onclick="window.location.href='options-d'" class="nolinebutton">Design</button>
         <!--<button onclick="window.location.href='options-a.html'" class="nolinebutton">Art</button>-->
-        <button onclick="window.location.href='about.html'" class="nolinebutton">About</button>
-        <button onclick="window.location.href='contact.html'" class="nolinebutton">contact>></button>
+        <button onclick="window.location.href='about'" class="nolinebutton">About</button>
+        <button onclick="window.location.href='contact'" class="nolinebutton">Work With Me[ > ][ > ]</button>
     </div>
     <div class="indented">
         <h1>Let's Get in Touch</h1>
@@ -67,9 +67,9 @@
             <small style="color:darkslategrey">© Silas Wolfe 2025 -- all rights reserved</small>
         </div>
         <div class="column">
-            <small onclick="window.location.href='about.html'" style="color:rgb(198, 111, 5)">about</small>
+            <small onclick="window.location.href='about'" style="color:rgb(198, 111, 5)">about</small>
             <br>
-            <small onclick="window.location.href='contact.html'" style="color:rgb(198,111,5)">contact</small>
+            <small onclick="window.location.href='contact'" style="color:rgb(198,111,5)">contact</small>
         </div>
     </div>
 </footer>

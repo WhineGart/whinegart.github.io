@@ -13,10 +13,10 @@
         <img src="img/logo.svg" class="indented" width="50%" onclick="window.location.href='index.html'">
     </div>
     <div class="indented" style="margin-top: 5px; padding-bottom: 20px;">
-        <button onclick="window.location.href='options-d.html'" class="nolinebutton">Design</button>
+        <button onclick="window.location.href='options-d'" class="nolinebutton">Design</button>
         <!--<button onclick="window.location.href='options-a.html'" class="nolinebutton">Art</button>-->
-        <button onclick="window.location.href='about.html'" class="nolinebutton">About</button>
-        <button onclick="window.location.href='contact.html'" class="nolinebutton">contact>></button>
+        <button onclick="window.location.href='about'" class="nolinebutton">About</button>
+        <button onclick="window.location.href='contact'" class="nolinebutton">Work With Me[ > ][ > ]</button>
     </div>
 </head>
 <body>
@@ -28,24 +28,24 @@
         </div>
     </div>
     <div>
-        <div class="indented" onclick="window.location.href='gallery-branding.html'">
+        <div class="indented" onclick="window.location.href='gallery-branding'">
             <div class="flexcont">
                 <div class="flexcoll">
                     <div class="flexbod">
-                        <img src="svg/pv-tika.svg" alt="tika" onclick="window.location.href='spg-br-tika.html'">
+                        <img src="svg/pv-tika.svg" alt="tika" onclick="window.location.href='spg-br-tika'">
                     </div>
                 </div>
                 <div class="flexcol">
                     <div class="flexbod">
-                        <img src="svg/pv-Bwb.svg" alt="Broadway Bomb" onclick="window.location.href='spg-br-broadwaybomb.html'">
+                        <img src="svg/pv-Bwb.svg" alt="Broadway Bomb" onclick="window.location.href='spg-br-broadwaybomb'">
                     </div>
                     <div class="flexbod">
-                        <img src="svg/pv-norsk.svg" alt="Norsk Fisker" href="spg-br-norskfisker.html">
+                        <img src="svg/pv-norsk.svg" alt="Norsk Fisker" href="spg-br-norskfisker">
                     </div>
                 </div>
                 <div class="flexcolr">
                     <div class="flexbod">
-                        <img src="svg/pv-upz.svg" alt="Ueno Park Zoo" onclick="window.location.href='spg-br-uenozoo.html'">
+                        <img src="svg/pv-upz.svg" alt="Ueno Park Zoo" onclick="window.location.href='spg-br-uenozoo'">
                     </div>
                 </div>
             </div>
@@ -57,9 +57,9 @@
                 <small style="color:darkslategrey">© Silas Wolfe 2025 -- all rights reserved</small>
             </div>
             <div class="column">
-                <small onclick="window.location.href='about.html'" style="color:rgb(198, 111, 5)">about</small>
+                <small onclick="window.location.href='about'" style="color:rgb(198, 111, 5)">about</small>
                 <br>
-                <small onclick="window.location.href='contact.html'" style="color:rgb(198,111,5)">contact</small>
+                <small onclick="window.location.href='contact'" style="color:rgb(198,111,5)">contact</small>
             </div>
         </div>
     </footer>

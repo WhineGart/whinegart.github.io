@@ -16,8 +16,8 @@
         <br><br>
     </div>
     <div style="text-align: center; color:antiquewhite; background-color: darkslategrey;">
-        <p style="padding-top: 5%;">  Website [under construction]</p>
-        <button onclick="window.location.href='index.html'; "class="my-button";>grafik.SilasWolfe.art</button>
+        <p style="padding-top: 5%;">  Website</p>
+        <button onclick="window.location.href='index; "class="my-button";>grafik.SilasWolfe.art</button>
         <br>
         <p>Behance</p>
         <button onclick="window.location.href='https://behance.net/silaswolfe';" class="my-button";>Click Here!</button>
@@ -38,9 +38,9 @@
             <small style="color:darkslategrey">© Silas Wolfe 2025 -- all rights reserved</small>
         </div>
         <div class="column">
-            <small onclick="window.location.href='about.html'" style="color:rgb(198, 111, 5)">about</small>
+            <small onclick="window.location.href='about'" style="color:rgb(198, 111, 5)">about</small>
             <br>
-            <small onclick="window.location.href='contact.html'" style="color:rgb(198,111,5)">contact</small>
+            <small onclick="window.location.href='contact'" style="color:rgb(198,111,5)">contact</small>
         </div>
     </div>
 </footer>
